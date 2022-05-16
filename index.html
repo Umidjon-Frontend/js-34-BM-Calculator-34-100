@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>34-Day | BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <img src="img/scale_1200.webp" alt="">
+        <div class="calculator__header">BMI Calculator</div>
+        <hr>
+        <div class="calculator__body">
+            <div class="calculator__input-box">
+                <label class="calculator__label" for="">Height (in cm)</label>
+                <input id="height" type="text" class="calculator__input">
+            </div>
+
+            <div class="calculator__input-box">
+                <label class="calculator__label" for="">Weight (in kg)</label>
+                <input id="weight" type="text" class="calculator__input">
+            </div>
+        </div>
+        <div class="calculator__footer">
+            <button class="calculator__btn-calculate">
+                Calculate
+            </button>
+
+            <div class="result">
+                <div class="result__box">
+                    Normal: 24.22
+                </div>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
